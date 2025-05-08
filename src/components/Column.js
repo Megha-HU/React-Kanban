@@ -11,7 +11,6 @@ const Column = ({ column, tasks, onAdd, onEdit, onDelete, onMove }) => {
   const handleDragOver = (e) => {
     e.preventDefault();
   };
-  console.log(column,'column')
   return (
     <div className="column" onDrop={handleDrop} onDragOver={handleDragOver}>
       <h2>{column.toLocaleUpperCase()}</h2>

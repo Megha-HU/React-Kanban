@@ -18,11 +18,11 @@ body {
   float: right;
 }
 .kanban-board {
- display: flex;
- justify-content: space-around;
- gap: 1rem;
- margin-top: 20px;
-padding-left: 10%;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  margin-top: 20px;
+  padding-left: 10%;
 }
 .column {
   background: #e5e3e3;
@@ -30,7 +30,7 @@ padding-left: 10%;
   border-radius: 10px;
   width: 50%;
 }
-.kanban-container{
+.kanban-container {
   display: flex;
   flex-direction: column;
 }
@@ -39,15 +39,15 @@ padding-left: 10%;
   justify-content: center;
   align-items: center;
 }
-.mode{
-   float: right;
+.mode {
+  float: right;
 }
 .input-search {
   width: 50%;
   height: 30px;
   font-size: medium;
 }
-.search-container{
+.search-container {
   display: flex;
   justify-content: center;
   align-items: center;
