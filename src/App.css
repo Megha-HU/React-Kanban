@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+.light-mode {
+  padding: 20px;
+}
+.dark-mode {
+  padding: 20px;
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+.dark-mode .column {
+  background: #333;
+}
+.mode-button {
+  cursor: pointer;
+  float: right;
+}
+.kanban-board {
+ display: flex;
+ justify-content: space-around;
+ gap: 1rem;
+ margin-top: 20px;
+padding-left: 10%;
+}
+.column {
+  background: #e5e3e3;
+  padding: 10px;
+  border-radius: 10px;
+  width: 50%;
+}
+.kanban-container{
+  display: flex;
+  flex-direction: column;
+}
+.header-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mode{
+   float: right;
+}
+.input-search {
+  width: 50%;
+  height: 30px;
+  font-size: medium;
+}
+.search-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-container {
+  display: flex;
+}
+.task-card {
+  background: white;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: grab;
+}
+.dark-mode .task-card {
+  background: #444;
+}
